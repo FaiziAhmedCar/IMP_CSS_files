@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 500px;
+            border: solid black 3px;
+            background-color: blue;
+        }
+        /* @media (max-width:500px) {
+            .box{
+                background-color: red;
+            }
+        } */
+        /* @media (min-width:500px) {
+            .box{
+                background-color: red;
+            }
+        } */
+        @media (min-width:200px) and (max-width:500px) {
+            .box{
+                background-color: red;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        hello noobdo
+    </div>
+</body>
+</html>

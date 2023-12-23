@@ -1,0 +1,27 @@
+.bor2{
+    margin-top: 20px;
+    border: 3px solid black;
+    height: 5000px;
+
+}
+.pos{
+    position: relative;
+    border: solid 2px green;
+    height: 5000px;
+    
+}
+img{
+    margin: 20px;
+
+}
+#im2{
+    position:sticky;
+    top: 100px;    
+}
+#im3{
+
+    position: fixed;
+    top:0px;
+}
+
+

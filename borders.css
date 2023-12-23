@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.head{
+    color: rgb(19, 65, 192);
+    padding: 30px;
+    margin-left: 400px;
+    text-align: center;
+    font-size: 70px;
+    border: solid red 3px;
+    border-radius: 35px;
+    width: 500px ;
+    /* border-bottom: 0px; */
+    /* border-top: 1px; */
+    /* border-style: double; */
+    /* border-width: 8px; */
+    /* border-image:round; */
+
+}

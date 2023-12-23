@@ -1,0 +1,24 @@
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+p{
+    font-style: oblique;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 50px;
+    
+}
+#para1{
+    /* color: rgba(red, green, blue); */
+    background-color: rgba(255, 0, 191, 0.815);
+}
+#para2{
+    color:rgb(255, 0, 179) ;
+    background-color: #9e2d2d;
+}
+
+#para3{ 
+color: rgb(123, 217, 230);
+background-color: hsl(249, 89%, 41%);
+}

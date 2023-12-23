@@ -1,0 +1,15 @@
+.pos{
+    position: relative;
+    border: solid 3px green;
+    
+}
+img{
+    margin: 20px;
+
+}
+#im2{
+    position: absolute;
+    top: 100px;
+    
+}
+

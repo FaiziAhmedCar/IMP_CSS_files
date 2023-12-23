@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            border: 10px solid black;
+        }
+    .box{
+        width: 350px;
+        height: 80px;
+        background-color: blue;
+         border-radius: 10px;
+         margin: 10px;
+         position: relative;
+         border: solid black 2px;
+         animation-name:Movement;
+         animation-duration: 2s;
+         animation-iteration-count:2;
+         animation-delay: 2s;
+         animation-timing-function: linear;
+         /* animation-direction: alternate; */
+         animation-fill-mode: both;
+        }
+        @keyframes Movement{
+            from{
+                top:0;
+                left:0;
+            }
+            to{
+                top:0;
+                left:1400px;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            
+        </div>
+
+    </div>
+</body>
+</html>
